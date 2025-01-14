@@ -102,6 +102,7 @@ bool PN532::powerdown() {
   // delay(1);
   // return true;
   ESP_LOGI(TAG, "Skipping power-down command for PN532.");
+  delay(1);
   return false;
 }
 
